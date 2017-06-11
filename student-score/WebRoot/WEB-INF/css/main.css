@@ -1,0 +1,65 @@
+html body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+.container-fluid {
+	/*padding: 0;*/
+}
+
+.content-table thead td,.content-table tbody tr td:first-child {
+	text-align: center;
+}
+.content-table {
+	margin-bottom: 0;
+}
+.accordion-toggle {
+	background-color: #f5f5f5;
+}
+.panel-body {
+	padding: 0;
+}
+.well {
+	padding: 0;
+	text-align: center;
+}
+
+.well .well-inner {
+	margin: 0;
+	height: 40px;
+	line-height: 40px;
+}
+.well p {
+	display: inline-block;
+}
+p.skip_page {
+	margin-left: 50px;
+}
+.skip_page input {
+	width: 30px;
+}
+.disable:link,.disable:hover,.disable:active,.disable:visited {
+	color: black;
+	text-decoration: none;
+	cursor: text;
+}
+.btn-group {
+	margin: 5px;
+}
+.select-btn,.btn-group>.btn+.btn {
+	margin-left: 5px;
+	border-radius: 4px !important;
+}
+.clockpicker-popover {
+	z-index: 100000;
+}
+#perpage_num {
+	width: 50px;
+}
+.spobj {
+	width: 100px;
+}
+.form-horizontal .checkbox-inline {
+	padding: 0;
+	margin: 0;
+}
